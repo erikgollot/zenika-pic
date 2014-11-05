@@ -5,7 +5,7 @@ package com.zenika.formation;
  * @author Mathias Seguy (Android2EE)
  * @goals
  * This class aims to:
- * Erik Modification
+ * Erik Modification2
  */
 public class Person
 {
