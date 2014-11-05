@@ -13,6 +13,22 @@ public class Person
 	private String name;
 	
 	private String firstName;
+	
+	private String address;
+
+	/**
+	 * @return the address
+	 */
+	public final String getAddress() {
+		return address;
+	}
+
+	/**
+	 * @param address the address to set
+	 */
+	public final void setAddress(String address) {
+		this.address = address;
+	}
 
 	public String getName() {
 		return name;
