@@ -4,7 +4,7 @@
    <groupId>com.zenika.formation</groupId>
    <artifactId>resanet-parent</artifactId>
    <packaging>pom</packaging>
-   <version>3.4</version>
+   <version>3.5-SNAPSHOT</version>
    <name>resanet-parent</name>
    <modules>
       <module>resanet-model</module>
