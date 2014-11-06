@@ -50,7 +50,7 @@ public class Person
 	*
 	**/
 	public void doit(String args) {
-		if (args!=null && args.length > 12) {
+		if (args!=null && args.length() > 12) {
 			System.out.println("c'est bon");
 		} 
 		else 
