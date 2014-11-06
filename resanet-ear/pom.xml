@@ -3,13 +3,13 @@
   <groupId>com.zenika.formation</groupId>
   <artifactId>resanet-ear</artifactId>
   <packaging>ear</packaging>
-  <version>3.4-SNAPSHOT</version>
+  <version>3.4</version>
   <name>resanet-ear</name>
 
   <parent>
     <groupId>com.zenika.formation</groupId>
     <artifactId>resanet-parent</artifactId>
-    <version>3.4-SNAPSHOT</version>
+    <version>3.4</version>
   </parent>
 
 
