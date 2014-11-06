@@ -4,7 +4,7 @@
    <groupId>com.zenika.formation</groupId>
    <artifactId>resanet-parent</artifactId>
    <packaging>pom</packaging>
-   <version>1.0-SNAPSHOT</version>
+   <version>2.1-SNAPSHOT</version>
    <name>resanet-parent</name>
    <modules>
       <module>resanet-model</module>
@@ -67,7 +67,8 @@
    </build>
 	<scm>
 		<developerConnection>scm:git:file:///C:/server/maven/.git</developerConnection>
-	</scm>
+	  <tag>HEAD</tag>
+  </scm>
 	<profiles>
 <profile>
 <id>private</id>
