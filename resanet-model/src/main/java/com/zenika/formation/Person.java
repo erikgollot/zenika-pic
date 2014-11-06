@@ -45,7 +45,16 @@ public class Person
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
-	
-	
+	/**
+	* The comment
+	*
+	**/
+	public void doit(String args) {
+		if (args!=null && args.length > 12) {
+			System.out.println("c'est bon");
+		} 
+		else 
+			System.err.println("Là Sonar va gueuler");
+	}
 
 }
