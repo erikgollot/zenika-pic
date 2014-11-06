@@ -30,8 +30,8 @@ public class SeleniumTest {
     @Test
     public void testHome() throws Exception {
         driver.get(baseUrl + "/");
-        driver.findElement(By.cssSelector("input[type=\"text\"]")).clear();
-        driver.findElement(By.cssSelector("input[type=\"text\"]")).sendKeys("toto");
+        driver.findElement(By.cssSelector("input[name=\"name\"]")).clear();
+        driver.findElement(By.cssSelector("input[name=\"name\"]")).sendKeys("toto");
         driver.findElement(By.cssSelector("input[type=\"submit\"]")).click();
     }
 
