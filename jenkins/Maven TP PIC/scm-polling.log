@@ -1,0 +1,7 @@
+Started on Nov 6, 2014 4:51:59 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 82eb10736db46fe14a81f297fd46a2043c55f379 (origin/master)
+ > C:\Progra~2\Git\bin\git.exe ls-remote -h file:///c:/server/maven/.git master # timeout=10
+[poll] Latest remote head revision is: 82eb10736db46fe14a81f297fd46a2043c55f379
+Done. Took 78 ms
+No changes

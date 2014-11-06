@@ -1,0 +1,25 @@
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building resanet-ear 3.5-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ resanet-ear ---
+[INFO] Deleting C:\Training\jenkins\workspace\Maven TP PIC\resanet-ear\target
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-ear-plugin:2.8:generate-application-xml (default-generate-application-xml) @ resanet-ear ---
+[INFO] Generating application.xml
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ resanet-ear ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Training\jenkins\workspace\Maven TP PIC\resanet-ear\src\main\resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-ear-plugin:2.8:ear (default-ear) @ resanet-ear ---
+2014-11-06 16:43:18.501:INFO:oejsl.ELContextCleaner:javax.el.BeanELResolver purged
+2014-11-06 16:43:18.501:INFO:oejsh.ContextHandler:stopped o.m.j.p.JettyWebAppContext{/,file:/C:/Training/jenkins/workspace/Maven%20TP%20PIC/resanet-web/src/main/webapp/},file:/C:/Training/jenkins/workspace/Maven%20TP%20PIC/resanet-web/src/main/webapp/
+[INFO] Copying artifact [war:com.zenika.formation:resanet-web:3.5-SNAPSHOT] to [resanet-formation.war]
+[INFO] Could not find manifest file: C:\Training\jenkins\workspace\Maven TP PIC\resanet-ear\target\resanet-ear-3.5-SNAPSHOT\META-INF\MANIFEST.MF - Generating one
+[INFO] Building jar: C:\Training\jenkins\workspace\Maven TP PIC\resanet-ear\target\resanet-ear.ear
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ resanet-ear ---
+[INFO] Installing C:\Training\jenkins\workspace\Maven TP PIC\resanet-ear\target\resanet-ear.ear to C:\Users\Training\.m2\repository\com\zenika\formation\resanet-ear\3.5-SNAPSHOT\resanet-ear-3.5-SNAPSHOT.ear
+[INFO] Installing C:\Training\jenkins\workspace\Maven TP PIC\resanet-ear\pom.xml to C:\Users\Training\.m2\repository\com\zenika\formation\resanet-ear\3.5-SNAPSHOT\resanet-ear-3.5-SNAPSHOT.pom

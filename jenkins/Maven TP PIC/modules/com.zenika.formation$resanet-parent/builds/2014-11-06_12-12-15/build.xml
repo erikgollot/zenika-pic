@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@2.7.1">
+  <actions>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>com.zenika.formation:resanet-parent:pom.xml</string>
+          <string>ca5459cf47f36ef06835c1adae4ef7e1</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>com.zenika.formation</groupId>
+        <artifactId>resanet-parent</artifactId>
+        <version>3.4-SNAPSHOT</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>resanet-parent-3.4-SNAPSHOT.pom</canonicalName>
+        <md5sum>ca5459cf47f36ef06835c1adae4ef7e1</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+    </hudson.maven.reporters.MavenArtifactRecord>
+  </actions>
+  <number>35</number>
+  <startTime>1415272338713</startTime>
+  <result>FAILURE</result>
+  <duration>7845</duration>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Training\jenkins\workspace\Maven TP PIC</workspace>
+  <executedMojos class="java.util.concurrent.CopyOnWriteArrayList">
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-release-plugin</artifactId>
+      <version>2.5.1</version>
+      <goal>prepare</goal>
+      <executionId>default-cli</executionId>
+      <duration>7515</duration>
+      <digest>50a6e93751041225547b3cdaf139a210</digest>
+    </hudson.maven.ExecutedMojo>
+  </executedMojos>
+</hudson.maven.MavenBuild>

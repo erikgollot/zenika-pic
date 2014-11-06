@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@2.7.1">
+  <actions>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>com.zenika.formation</groupId>
+        <artifactId>resanet-web</artifactId>
+        <version>3.5-SNAPSHOT</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>resanet-web-3.5-SNAPSHOT.pom</canonicalName>
+        <md5sum>afa4e37756e3cc4547c140b81676ebf9</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+      <repositoryId>snapshot</repositoryId>
+      <repositoryUrl>http://localhost:8081/nexus/content/repositories/snapshots/</repositoryUrl>
+    </hudson.maven.reporters.MavenArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>com.zenika.formation:resanet-parent:resanet-parent-3.5-SNAPSHOT.pom</string>
+          <string>05036858bb5417c91ad09a1c4d69a11e</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <number>47</number>
+  <startTime>1415288776026</startTime>
+  <result>NOT_BUILT</result>
+  <duration>0</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Training\jenkins\workspace\Maven TP PIC\resanet-web</workspace>
+</hudson.maven.MavenBuild>

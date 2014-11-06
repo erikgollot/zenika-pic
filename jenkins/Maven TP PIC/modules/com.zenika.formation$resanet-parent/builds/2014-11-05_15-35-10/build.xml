@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@2.7.1">
+  <actions>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>com.zenika.formation:resanet-parent:pom.xml</string>
+          <string>c9325087eb8b080d32c9504926c2618d</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>com.zenika.formation</groupId>
+        <artifactId>resanet-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>resanet-parent-1.0-SNAPSHOT.pom</canonicalName>
+        <md5sum>c9325087eb8b080d32c9504926c2618d</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+    </hudson.maven.reporters.MavenArtifactRecord>
+  </actions>
+  <number>4</number>
+  <startTime>1415198113214</startTime>
+  <result>SUCCESS</result>
+  <duration>729</duration>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Training\jenkins\workspace\Maven TP PIC</workspace>
+  <executedMojos class="java.util.concurrent.CopyOnWriteArrayList">
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-clean-plugin</artifactId>
+      <version>2.5</version>
+      <goal>clean</goal>
+      <executionId>default-clean</executionId>
+      <duration>179</duration>
+      <digest>9a18e4d3f6e6495ed92b7d4694b41e66</digest>
+    </hudson.maven.ExecutedMojo>
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-install-plugin</artifactId>
+      <version>2.4</version>
+      <goal>install</goal>
+      <executionId>default-install</executionId>
+      <duration>175</duration>
+      <digest>f5bb3c264487db208f3fcd71c3208d7d</digest>
+    </hudson.maven.ExecutedMojo>
+  </executedMojos>
+</hudson.maven.MavenBuild>

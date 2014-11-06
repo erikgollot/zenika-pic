@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@2.7.1">
+  <actions>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>com.zenika.formation:resanet-parent:pom.xml</string>
+          <string>05036858bb5417c91ad09a1c4d69a11e</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>com.zenika.formation</groupId>
+        <artifactId>resanet-parent</artifactId>
+        <version>3.5-SNAPSHOT</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>resanet-parent-3.5-SNAPSHOT.pom</canonicalName>
+        <md5sum>05036858bb5417c91ad09a1c4d69a11e</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+      <repositoryId>snapshot</repositoryId>
+      <repositoryUrl>http://localhost:8081/nexus/content/repositories/snapshots/</repositoryUrl>
+    </hudson.maven.reporters.MavenArtifactRecord>
+  </actions>
+  <number>46</number>
+  <startTime>1415288582275</startTime>
+  <result>SUCCESS</result>
+  <duration>746</duration>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Training\jenkins\workspace\Maven TP PIC</workspace>
+  <executedMojos class="java.util.concurrent.CopyOnWriteArrayList">
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-clean-plugin</artifactId>
+      <version>2.5</version>
+      <goal>clean</goal>
+      <executionId>default-clean</executionId>
+      <duration>178</duration>
+      <digest>9a18e4d3f6e6495ed92b7d4694b41e66</digest>
+    </hudson.maven.ExecutedMojo>
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-install-plugin</artifactId>
+      <version>2.4</version>
+      <goal>install</goal>
+      <executionId>default-install</executionId>
+      <duration>152</duration>
+      <digest>f5bb3c264487db208f3fcd71c3208d7d</digest>
+    </hudson.maven.ExecutedMojo>
+  </executedMojos>
+</hudson.maven.MavenBuild>

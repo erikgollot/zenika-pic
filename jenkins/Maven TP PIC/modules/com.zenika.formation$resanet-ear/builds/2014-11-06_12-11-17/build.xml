@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@2.7.1">
+  <actions>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>com.zenika.formation</groupId>
+        <artifactId>resanet-ear</artifactId>
+        <version>3.4-SNAPSHOT</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>resanet-ear-3.4-SNAPSHOT.pom</canonicalName>
+        <md5sum>0a36262f3185b2188d33d5f837d45292</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+    </hudson.maven.reporters.MavenArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>com.zenika.formation:resanet-parent:resanet-parent-3.4-SNAPSHOT.pom</string>
+          <string>aa5e3b515111aa3dc11f5facd416bfe1</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <number>33</number>
+  <startTime>1415272292071</startTime>
+  <result>NOT_BUILT</result>
+  <duration>0</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Training\jenkins\workspace\Maven TP PIC\resanet-ear</workspace>
+</hudson.maven.MavenBuild>

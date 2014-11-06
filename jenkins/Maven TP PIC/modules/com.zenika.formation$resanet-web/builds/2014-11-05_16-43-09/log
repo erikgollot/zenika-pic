@@ -1,0 +1,38 @@
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building resanet-web Maven Webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ resanet-web ---
+[INFO] Deleting C:\Training\jenkins_slave\workspace\Maven TP PIC\resanet-web\target
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ resanet-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Training\jenkins_slave\workspace\Maven TP PIC\resanet-web\src\main\resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ resanet-web ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ resanet-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Training\jenkins_slave\workspace\Maven TP PIC\resanet-web\src\test\resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ resanet-web ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ resanet-web ---
+[INFO] No tests to run.
+[JENKINS] Recording test results
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.2:war (default-war) @ resanet-web ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [resanet-web] in [C:\Training\jenkins_slave\workspace\Maven TP PIC\resanet-web\target\resanet-web]
+[INFO] Processing war project
+[INFO] Copying webapp resources [C:\Training\jenkins_slave\workspace\Maven TP PIC\resanet-web\src\main\webapp]
+[INFO] Webapp assembled in [40 msecs]
+[INFO] Building war: C:\Training\jenkins_slave\workspace\Maven TP PIC\resanet-web\target\resanet-web.war
+[INFO] WEB-INF\web.xml already added, skipping
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ resanet-web ---
+[INFO] Installing C:\Training\jenkins_slave\workspace\Maven TP PIC\resanet-web\target\resanet-web.war to C:\Users\Training\.m2\repository\com\zenika\formation\resanet-web\1.0-SNAPSHOT\resanet-web-1.0-SNAPSHOT.war
+[INFO] Installing C:\Training\jenkins_slave\workspace\Maven TP PIC\resanet-web\pom.xml to C:\Users\Training\.m2\repository\com\zenika\formation\resanet-web\1.0-SNAPSHOT\resanet-web-1.0-SNAPSHOT.pom
